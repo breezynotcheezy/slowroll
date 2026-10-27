@@ -3,6 +3,9 @@ export function FeltTable() {
     <svg
       className="felt-table"
       viewBox="0 0 960 520"
+      width="960"
+      height="520"
+      preserveAspectRatio="xMidYMid meet"
       role="img"
       aria-label="Poker table with chips and hole cards"
     >
