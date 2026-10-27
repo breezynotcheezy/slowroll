@@ -1,0 +1,69 @@
+:root {
+  --felt: #0c3b2e;
+  --felt-deep: #061f18;
+  --felt-mid: #114a3a;
+  --felt-lit: #1a6b52;
+  --rail: #3d2415;
+  --rail-edge: #5c3a22;
+  --gold: #d4a84b;
+  --gold-bright: #f0d078;
+  --gold-dim: #a67c2d;
+  --ivory: #f3eee4;
+  --ivory-muted: rgba(243, 238, 228, 0.72);
+  --chip-red: #c4453a;
+  --chip-navy: #1e2a44;
+  --chip-cream: #efe6d4;
+  --ink: #071510;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --font-display: "Syne", system-ui, sans-serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background: var(--felt-deep);
+  color: var(--ivory);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--ink);
+}
